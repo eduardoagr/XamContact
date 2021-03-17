@@ -1,0 +1,15 @@
+C:\Users\egome\source\repos\ContactXam\ContactXam\bin\Debug\netstandard2.0\ContactXam.deps.json
+C:\Users\egome\source\repos\ContactXam\ContactXam\bin\Debug\netstandard2.0\ContactXam.dll
+C:\Users\egome\source\repos\ContactXam\ContactXam\bin\Debug\netstandard2.0\ref\ContactXam.dll
+C:\Users\egome\source\repos\ContactXam\ContactXam\bin\Debug\netstandard2.0\ContactXam.pdb
+C:\Users\egome\source\repos\ContactXam\ContactXam\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\egome\source\repos\ContactXam\ContactXam\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\egome\source\repos\ContactXam\ContactXam\obj\Debug\netstandard2.0\View\AddContact.xaml.g.cs
+C:\Users\egome\source\repos\ContactXam\ContactXam\obj\Debug\netstandard2.0\View\ContactsPage.xaml.g.cs
+C:\Users\egome\source\repos\ContactXam\ContactXam\obj\Debug\netstandard2.0\ContactXam.AssemblyInfoInputs.cache
+C:\Users\egome\source\repos\ContactXam\ContactXam\obj\Debug\netstandard2.0\ContactXam.AssemblyInfo.cs
+C:\Users\egome\source\repos\ContactXam\ContactXam\obj\Debug\netstandard2.0\ContactXam.csproj.CoreCompileInputs.cache
+C:\Users\egome\source\repos\ContactXam\ContactXam\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\egome\source\repos\ContactXam\ContactXam\obj\Debug\netstandard2.0\ContactXam.dll
+C:\Users\egome\source\repos\ContactXam\ContactXam\obj\Debug\netstandard2.0\ref\ContactXam.dll
+C:\Users\egome\source\repos\ContactXam\ContactXam\obj\Debug\netstandard2.0\ContactXam.pdb

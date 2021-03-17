@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ContactXam.View.AddContact"
+             xmlns:vm="clr-namespace:ContactXam.ViewModel"
+             Visual="Material">
+
+    <ContentPage.BindingContext>
+        <vm:AddContactVM />
+    </ContentPage.BindingContext>
+    
+    <ContentPage.Content>
+        <Grid RowDefinitions="250, Auto"
+              RowSpacing="20">
+            <StackLayout BackgroundColor="AliceBlue">
+                <Image Source="User" HeightRequest="200" WidthRequest="200" VerticalOptions="CenterAndExpand" />
+            </StackLayout>
+            <StackLayout Grid.Row="1"
+                         Margin="20">
+                <Entry Placeholder="Name"
+                       Text="{x:Binding Contact.Name}" />
+                <Entry Placeholder="Phone Number"
+                       Text="{x:Binding Contact.PhoneNumber}"
+                       Keyboard="Numeric"
+                       MaxLength="10"/>
+                <Entry Placeholder="Address"
+                       Text="{x:Binding Contact.Address}" />
+                <Button Grid.Row="2"
+                        Margin="40"
+                        Command="{x:Binding SaveCommand}"
+                        Text="Save"/>
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "dgSpecHash": "wJ/C+73++gDpeOE4FJkmnFtwZ7O0qXsVZgl4w/yhxMWabXfb7L7Bzar1kHiB8plB/0MaaiRrWf4A+0lIqqcvAw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\egome\\source\\repos\\ContactXam\\ContactXam.iOS\\ContactXam.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\egome\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",
+    "C:\\Users\\egome\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.3\\sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
+    "C:\\Users\\egome\\.nuget\\packages\\sqlitepclraw.core\\2.0.3\\sqlitepclraw.core.2.0.3.nupkg.sha512",
+    "C:\\Users\\egome\\.nuget\\packages\\sqlitepclraw.provider.dynamic_cdecl\\2.0.3\\sqlitepclraw.provider.dynamic_cdecl.2.0.3.nupkg.sha512",
+    "C:\\Users\\egome\\.nuget\\packages\\syncfusion.licensing\\18.4.0.48\\syncfusion.licensing.18.4.0.48.nupkg.sha512",
+    "C:\\Users\\egome\\.nuget\\packages\\syncfusion.xamarin.core\\18.4.0.48\\syncfusion.xamarin.core.18.4.0.48.nupkg.sha512",
+    "C:\\Users\\egome\\.nuget\\packages\\syncfusion.xamarin.datasource\\18.4.0.48\\syncfusion.xamarin.datasource.18.4.0.48.nupkg.sha512",
+    "C:\\Users\\egome\\.nuget\\packages\\syncfusion.xamarin.gridcommon\\18.4.0.48\\syncfusion.xamarin.gridcommon.18.4.0.48.nupkg.sha512",
+    "C:\\Users\\egome\\.nuget\\packages\\syncfusion.xamarin.sflistview\\18.4.0.48\\syncfusion.xamarin.sflistview.18.4.0.48.nupkg.sha512",
+    "C:\\Users\\egome\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
+    "C:\\Users\\egome\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\egome\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\egome\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "C:\\Users\\egome\\.nuget\\packages\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Users\\egome\\.nuget\\packages\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512",
+    "C:\\Users\\egome\\.nuget\\packages\\xamarin.forms.visual.material\\5.0.0.2012\\xamarin.forms.visual.material.5.0.0.2012.nupkg.sha512",
+    "C:\\Users\\egome\\.nuget\\packages\\xamarin.ios.materialcomponents\\92.0.0\\xamarin.ios.materialcomponents.92.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
