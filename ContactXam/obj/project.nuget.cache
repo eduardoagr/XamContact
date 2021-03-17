@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5l3Sb03saLFvqYdLKsqCpFKOYEAIR9SrPJ6nqwujt68fZNqAZbVHZm66/ElLK6unJnQ7jdcCXU/GGgtQgW083A==",
+  "dgSpecHash": "J8tyMuaQwbetlG7+2MddHyBwSTmkthSBuEz4atxC0qONbktSXRplkO2K6cEt9KVYbup/YCs3VRzEje6UqFPT+A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\egome\\source\\repos\\ContactXam\\ContactXam\\ContactXam.csproj",
+  "projectFilePath": "C:\\Users\\egome\\Documents\\GitRepos\\XamContact\\ContactXam\\ContactXam.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\egome\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\egome\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

@@ -10688,11 +10688,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\egome\\source\\repos\\ContactXam\\ContactXam.UWP\\ContactXam.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\egome\\Documents\\GitRepos\\XamContact\\ContactXam.UWP\\ContactXam.UWP.csproj",
       "projectName": "ContactXam.UWP",
-      "projectPath": "C:\\Users\\egome\\source\\repos\\ContactXam\\ContactXam.UWP\\ContactXam.UWP.csproj",
+      "projectPath": "C:\\Users\\egome\\Documents\\GitRepos\\XamContact\\ContactXam.UWP\\ContactXam.UWP.csproj",
       "packagesPath": "C:\\Users\\egome\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\egome\\source\\repos\\ContactXam\\ContactXam.UWP\\obj\\",
+      "outputPath": "C:\\Users\\egome\\Documents\\GitRepos\\XamContact\\ContactXam.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -10716,8 +10716,8 @@
       "frameworks": {
         "uap10.0.16299": {
           "projectReferences": {
-            "C:\\Users\\egome\\source\\repos\\ContactXam\\ContactXam\\ContactXam.csproj": {
-              "projectPath": "C:\\Users\\egome\\source\\repos\\ContactXam\\ContactXam\\ContactXam.csproj"
+            "C:\\Users\\egome\\Documents\\GitRepos\\XamContact\\ContactXam\\ContactXam.csproj": {
+              "projectPath": "C:\\Users\\egome\\Documents\\GitRepos\\XamContact\\ContactXam\\ContactXam.csproj"
             }
           }
         }

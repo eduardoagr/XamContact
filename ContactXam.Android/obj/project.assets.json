@@ -2628,11 +2628,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\egome\\source\\repos\\ContactXam\\ContactXam.Android\\ContactXam.Android.csproj",
+      "projectUniqueName": "C:\\Users\\egome\\Documents\\GitRepos\\XamContact\\ContactXam.Android\\ContactXam.Android.csproj",
       "projectName": "ContactXam.Android",
-      "projectPath": "C:\\Users\\egome\\source\\repos\\ContactXam\\ContactXam.Android\\ContactXam.Android.csproj",
+      "projectPath": "C:\\Users\\egome\\Documents\\GitRepos\\XamContact\\ContactXam.Android\\ContactXam.Android.csproj",
       "packagesPath": "C:\\Users\\egome\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\egome\\source\\repos\\ContactXam\\ContactXam.Android\\obj\\",
+      "outputPath": "C:\\Users\\egome\\Documents\\GitRepos\\XamContact\\ContactXam.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2655,8 +2655,8 @@
       "frameworks": {
         "monoandroid11.0": {
           "projectReferences": {
-            "C:\\Users\\egome\\source\\repos\\ContactXam\\ContactXam\\ContactXam.csproj": {
-              "projectPath": "C:\\Users\\egome\\source\\repos\\ContactXam\\ContactXam\\ContactXam.csproj"
+            "C:\\Users\\egome\\Documents\\GitRepos\\XamContact\\ContactXam\\ContactXam.csproj": {
+              "projectPath": "C:\\Users\\egome\\Documents\\GitRepos\\XamContact\\ContactXam\\ContactXam.csproj"
             }
           }
         }

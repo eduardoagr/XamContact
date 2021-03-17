@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wJ/C+73++gDpeOE4FJkmnFtwZ7O0qXsVZgl4w/yhxMWabXfb7L7Bzar1kHiB8plB/0MaaiRrWf4A+0lIqqcvAw==",
+  "dgSpecHash": "6tOzUcgMdUlz90yr+LQAACUu9qqXhpftI39RiP5/g6UB9o5NP/pAiRA1grgpLtokUCcAVBdZ+mVHwIVegEr29g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\egome\\source\\repos\\ContactXam\\ContactXam.iOS\\ContactXam.iOS.csproj",
+  "projectFilePath": "C:\\Users\\egome\\Documents\\GitRepos\\XamContact\\ContactXam.iOS\\ContactXam.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\egome\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",
     "C:\\Users\\egome\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.3\\sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CTqNq8eI7rH/ire8e8JLoftxGisNM86b68EpVDeQK8bW0ptTPQCFqHagjMXf+pOVWngqFDB64JngdPk2ioUdzg==",
+  "dgSpecHash": "uBR/VSpYX8EfFsKnjzJAfN3wlXLzgCL87oXGWWK3W5O7RdtDdeVQg5QThKui5QI7NDjvYNCiikIpszR/9V0VjQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\egome\\source\\repos\\ContactXam\\ContactXam.UWP\\ContactXam.UWP.csproj",
+  "projectFilePath": "C:\\Users\\egome\\Documents\\GitRepos\\XamContact\\ContactXam.UWP\\ContactXam.UWP.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\egome\\.nuget\\packages\\microsoft.net.native.compiler\\2.2.10-rel-29722-00\\microsoft.net.native.compiler.2.2.10-rel-29722-00.nupkg.sha512",
     "C:\\Users\\egome\\.nuget\\packages\\microsoft.net.uwpcoreruntimesdk\\2.2.12\\microsoft.net.uwpcoreruntimesdk.2.2.12.nupkg.sha512",

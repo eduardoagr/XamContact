@@ -1969,11 +1969,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\egome\\source\\repos\\ContactXam\\ContactXam.iOS\\ContactXam.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\egome\\Documents\\GitRepos\\XamContact\\ContactXam.iOS\\ContactXam.iOS.csproj",
       "projectName": "ContactXam.iOS",
-      "projectPath": "C:\\Users\\egome\\source\\repos\\ContactXam\\ContactXam.iOS\\ContactXam.iOS.csproj",
+      "projectPath": "C:\\Users\\egome\\Documents\\GitRepos\\XamContact\\ContactXam.iOS\\ContactXam.iOS.csproj",
       "packagesPath": "C:\\Users\\egome\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\egome\\source\\repos\\ContactXam\\ContactXam.iOS\\obj\\",
+      "outputPath": "C:\\Users\\egome\\Documents\\GitRepos\\XamContact\\ContactXam.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1996,8 +1996,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\egome\\source\\repos\\ContactXam\\ContactXam\\ContactXam.csproj": {
-              "projectPath": "C:\\Users\\egome\\source\\repos\\ContactXam\\ContactXam\\ContactXam.csproj"
+            "C:\\Users\\egome\\Documents\\GitRepos\\XamContact\\ContactXam\\ContactXam.csproj": {
+              "projectPath": "C:\\Users\\egome\\Documents\\GitRepos\\XamContact\\ContactXam\\ContactXam.csproj"
             }
           }
         }
