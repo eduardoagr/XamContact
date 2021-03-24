@@ -1,9 +1,7 @@
 ﻿using Foundation;
 
 using Syncfusion.ListView.XForms.iOS;
-
-using System;
-using System.IO;
+using Syncfusion.XForms.iOS.EffectsView;
 
 using UIKit;
 
@@ -22,15 +20,12 @@ namespace ContactXam.iOS {
         //
         public override bool FinishedLaunching(UIApplication app, NSDictionary options) {
             Xamarin.Forms.Forms.Init();
+            SfListViewRenderer.Init();
+            SfEffectsViewRenderer.Init();  //Initialize only when effects view is added to Listview.
+            Syncfusion.XForms.iOS.Cards.SfCardViewRenderer.Init();
             Xamarin.Forms.FormsMaterial.Init();
 
-            SfListViewRenderer.Init();
-
-            string dbName = "CntanctDB.sqlite";
-            string folderPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Personal), "..", "Library");
-            string fullpath = Path.Combine(folderPath, dbName);
-
-            LoadApplication(new App(fullpath));
+            LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);
         }

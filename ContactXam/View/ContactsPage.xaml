@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:vm="clr-namespace:ContactXam.ViewModel"
-             xmlns:syncfusion="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
+             xmlns:cards="clr-namespace:Syncfusion.XForms.Cards;assembly=Syncfusion.Cards.XForms"
              x:Class="ContactXam.View.ContactsPage">
 
     <ContentPage.ToolbarItems>
@@ -13,7 +13,49 @@
     <ContentPage.BindingContext>
         <vm:ContactsVM />
     </ContentPage.BindingContext>
-    <syncfusion:SfListView x:Name="listView"
-                           ItemsSource="{Binding Contacts}" />
+
+    <ContentPage.Resources>
+        <Style TargetType="cards:SfCardView">
+            <Setter Property="VisualStateManager.VisualStateGroups">
+                <VisualStateGroupList>
+                    <VisualStateGroup x:Name="CommonStates">
+                        <VisualState x:Name="Normal" />
+                        <VisualState x:Name="Selected">
+                            <VisualState.Setters>
+                                <Setter Property="BackgroundColor"
+                                        Value="LightSkyBlue" />
+                            </VisualState.Setters>
+                        </VisualState>
+                    </VisualStateGroup>
+                </VisualStateGroupList>
+            </Setter>
+        </Style>
+    </ContentPage.Resources>
     
+    <CollectionView ItemsSource="{x:Binding Contacts}"
+                    SelectedItem="{x:Binding SelectedItem}"
+                    SelectionChangedCommand="{x:Binding SelectionItemCommand}"
+                    SelectionMode="Single">
+        <CollectionView.ItemTemplate>
+            <DataTemplate>
+                <cards:SfCardView CornerRadius="5"
+                                  BackgroundColor="CornflowerBlue"
+                                  Margin="10,10,10,10"
+                                  Padding="10">
+                    <StackLayout>
+                        <Label Text="{x:Binding Name, StringFormat='Name: {0}'}"
+                               FontSize="14"
+                               FontAttributes="Bold"/>
+                        <Label Text="{x:Binding PhoneNumber, StringFormat='Phone: {0}'}"
+                               Grid.Row="1" 
+                               FontSize="10"/>
+                        <Label Text="{x:Binding Address,  StringFormat='Address: {0}'}"
+                               Grid.Row="2"
+                               FontSize="10"/>
+                    </StackLayout>
+                </cards:SfCardView>
+            </DataTemplate>
+        </CollectionView.ItemTemplate>
+    </CollectionView>
+
 </ContentPage>

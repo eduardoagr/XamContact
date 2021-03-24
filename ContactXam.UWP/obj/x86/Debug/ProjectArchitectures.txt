@@ -1,1 +1,1 @@
-C:\Users\egome\source\repos\ContactXam\ContactXam.UWP\ContactXam.UWP.csproj;x86
+C:\Users\egome\Documents\GitRepos\XamContact\ContactXam.UWP\ContactXam.UWP.csproj;x86

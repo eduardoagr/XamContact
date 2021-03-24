@@ -1,4 +1,5 @@
-﻿using Syncfusion.ListView.XForms.UWP;
+﻿
+using Syncfusion.ListView.XForms.UWP;
 
 using System;
 using System.Collections.Generic;
@@ -51,7 +52,9 @@ namespace ContactXam.UWP {
                 List<Assembly> assembliesToInclude = new List<Assembly>();
 
                 //Now, add all the assemblies your app uses
+                assembliesToInclude.Add(typeof(Syncfusion.XForms.UWP.Cards.SfCardViewRenderer).GetTypeInfo().Assembly);
                 assembliesToInclude.Add(typeof(SfListViewRenderer).GetTypeInfo().Assembly);
+                Xamarin.Forms.Forms.Init(e, assembliesToInclude);
 
 
                 Xamarin.Forms.Forms.Init(e, assembliesToInclude);

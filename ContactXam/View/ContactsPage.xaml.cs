@@ -1,4 +1,6 @@
-﻿using Xamarin.Forms;
+﻿using ContactXam.ViewModel;
+
+using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 namespace ContactXam.View {
@@ -7,8 +9,7 @@ namespace ContactXam.View {
     public partial class ContactsPage : ContentPage {
 
         public ContactsPage() {
-
             InitializeComponent();
         }
     }
-}
+};

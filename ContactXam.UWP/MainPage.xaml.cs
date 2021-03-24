@@ -1,18 +1,13 @@
 ﻿
-using System.IO;
-
-using Windows.Storage;
+using Syncfusion.ListView.XForms.UWP;
 
 namespace ContactXam.UWP {
     public sealed partial class MainPage {
         public MainPage() {
-            this.InitializeComponent();
+            InitializeComponent();
 
-            string dbName = "CntanctDB.sqlite";
-            string folderPath = ApplicationData.Current.LocalFolder.Path;
-            string fullpath = Path.Combine(folderPath, dbName);
-
-            LoadApplication(new ContactXam.App(fullpath));
+            SfListViewRenderer.Init();
+            LoadApplication(new ContactXam.App());
         }
     }
 }

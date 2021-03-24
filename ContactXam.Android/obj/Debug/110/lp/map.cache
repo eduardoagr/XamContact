@@ -1,5 +1,10 @@
 FormsViewGroup.dll
+Microsoft.Azure.Mobile.Client.dll
+Microsoft.Azure.Mobile.Client.SQLiteStore.dll
+PCLCrypto.dll
+Plugin.Messaging.dll
 SQLitePCLRaw.lib.e_sqlite3.android.dll
+Syncfusion.Cards.XForms.Android.dll
 Syncfusion.Core.XForms.Android.dll
 Syncfusion.SfListView.XForms.Android.dll
 Xamarin.AndroidX.Activity.dll

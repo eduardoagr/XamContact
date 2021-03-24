@@ -10,23 +10,32 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>ec0cc741-fd3e-485c-81be-68815c480690</PackageIdentityName>
     <PackageIdentityPublisher>CN=9d9145a2-630b-4ae6-9617-28409fa80ec5</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\egome\source\repos\ContactXam\ContactXam.UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\egome\Documents\GitRepos\XamContact\ContactXam.UWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\egome\source\repos\ContactXam\ContactXam.UWP\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\egome\Documents\GitRepos\XamContact\ContactXam.UWP\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\egome\source\repos\ContactXam\ContactXam.UWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\egome\Documents\GitRepos\XamContact\ContactXam.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\ContactXam\ContactXam.UWP\bin\x86\Debug\ContactXam.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\XamContact\ContactXam.UWP\bin\x86\Debug\ContactXam.UWP.exe">
       <PackagePath>entrypoint\ContactXam.UWP.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\microsoft.azure.mobile.client\4.2.0\lib\uap10.0\Microsoft.Azure.Mobile.Client.dll">
+      <PackagePath>Microsoft.Azure.Mobile.Client.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\microsoft.azure.mobile.client.sqlitestore\4.2.0\lib\netstandard2.0\Microsoft.Azure.Mobile.Client.SQLiteStore.dll">
+      <PackagePath>Microsoft.Azure.Mobile.Client.SQLiteStore.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\newtonsoft.json\12.0.3\lib\netstandard2.0\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -34,20 +43,26 @@
     <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\sqlite-net-pcl\1.7.335\lib\netstandard2.0\SQLite-net.dll">
       <PackagePath>SQLite-net.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\sqlitepclraw.bundle_green\2.0.3\lib\netstandard2.0\SQLitePCLRaw.batteries_v2.dll">
+    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\sqlitepclraw.bundle_green\2.0.4\lib\netstandard2.0\SQLitePCLRaw.batteries_v2.dll">
       <PackagePath>SQLitePCLRaw.batteries_v2.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\sqlitepclraw.core\2.0.3\lib\netstandard2.0\SQLitePCLRaw.core.dll">
+    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\sqlitepclraw.core\2.0.4\lib\netstandard2.0\SQLitePCLRaw.core.dll">
       <PackagePath>SQLitePCLRaw.core.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.0.3\runtimes\win10-x86\nativeassets\uap10.0\e_sqlite3.dll">
+    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.0.4\runtimes\win10-x86\nativeassets\uap10.0\e_sqlite3.dll">
       <PackagePath>e_sqlite3.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\sqlitepclraw.provider.e_sqlite3\2.0.3\lib\uap10.0\SQLitePCLRaw.provider.e_sqlite3.dll">
+    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\sqlitepclraw.provider.e_sqlite3\2.0.4\lib\uap10.0\SQLitePCLRaw.provider.e_sqlite3.dll">
       <PackagePath>SQLitePCLRaw.provider.e_sqlite3.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\syncfusion.licensing\18.4.0.48\lib\uap10.0\Syncfusion.Licensing.dll">
       <PackagePath>Syncfusion.Licensing.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\syncfusion.xamarin.cards\18.4.0.48\lib\uap10.0\Syncfusion.Cards.XForms.UWP.dll">
+      <PackagePath>Syncfusion.Cards.XForms.UWP.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\syncfusion.xamarin.cards\18.4.0.48\lib\uap10.0\Syncfusion.Cards.XForms.dll">
+      <PackagePath>Syncfusion.Cards.XForms.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\syncfusion.xamarin.core\18.4.0.48\lib\uap10.0\Syncfusion.Core.XForms.UWP.dll">
       <PackagePath>Syncfusion.Core.XForms.UWP.dll</PackagePath>
@@ -73,6 +88,12 @@
     <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\win2d.uwp\1.20.0\runtimes\win10-x86\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\xam.plugins.messaging\5.2.0\lib\UAP10\Plugin.Messaging.Abstractions.dll">
+      <PackagePath>Plugin.Messaging.Abstractions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\xam.plugins.messaging\5.2.0\lib\UAP10\Plugin.Messaging.dll">
+      <PackagePath>Plugin.Messaging.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\xamarin.essentials\1.6.1\lib\uap10.0.16299\Xamarin.Essentials.dll">
       <PackagePath>Xamarin.Essentials.dll</PackagePath>
     </AppxPackagedFile>
@@ -88,7 +109,7 @@
     <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\xamarin.forms\5.0.0.2012\lib\uap10.0.16299\Xamarin.Forms.Xaml.dll">
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\ContactXam\ContactXam\bin\Debug\netstandard2.0\ContactXam.dll">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\XamContact\ContactXam\bin\Debug\netstandard2.0\ContactXam.dll">
       <PackagePath>ContactXam.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
@@ -103,127 +124,127 @@
     <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\xamarin.forms\5.0.0.2012\lib\uap10.0.16299\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml">
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\ContactXam\ContactXam.UWP\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\XamContact\ContactXam.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\ContactXam\ContactXam.UWP\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\XamContact\ContactXam.UWP\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\ContactXam\ContactXam.UWP\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\XamContact\ContactXam.UWP\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\ContactXam\ContactXam.UWP\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\XamContact\ContactXam.UWP\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\ContactXam\ContactXam.UWP\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\XamContact\ContactXam.UWP\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\ContactXam\ContactXam.UWP\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\XamContact\ContactXam.UWP\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\ContactXam\ContactXam.UWP\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\XamContact\ContactXam.UWP\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\ContactXam\ContactXam.UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\XamContact\ContactXam.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\ContactXam\ContactXam.UWP\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\XamContact\ContactXam.UWP\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\ContactXam\ContactXam.UWP\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\XamContact\ContactXam.UWP\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\ContactXam\ContactXam.UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\XamContact\ContactXam.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\ContactXam\ContactXam.UWP\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\XamContact\ContactXam.UWP\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\ContactXam\ContactXam.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\XamContact\ContactXam.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\ContactXam\ContactXam.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\XamContact\ContactXam.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\ContactXam\ContactXam.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\XamContact\ContactXam.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\ContactXam\ContactXam.UWP\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\XamContact\ContactXam.UWP\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\ContactXam\ContactXam.UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\XamContact\ContactXam.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\ContactXam\ContactXam.UWP\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\XamContact\ContactXam.UWP\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\ContactXam\ContactXam.UWP\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\XamContact\ContactXam.UWP\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\ContactXam\ContactXam.UWP\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\XamContact\ContactXam.UWP\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\ContactXam\ContactXam.UWP\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\XamContact\ContactXam.UWP\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\ContactXam\ContactXam.UWP\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\XamContact\ContactXam.UWP\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\ContactXam\ContactXam.UWP\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\XamContact\ContactXam.UWP\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\ContactXam\ContactXam.UWP\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\XamContact\ContactXam.UWP\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\ContactXam\ContactXam.UWP\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\XamContact\ContactXam.UWP\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\ContactXam\ContactXam.UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\XamContact\ContactXam.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\ContactXam\ContactXam.UWP\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\XamContact\ContactXam.UWP\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\ContactXam\ContactXam.UWP\User.png">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\XamContact\ContactXam.UWP\User.png">
       <PackagePath>User.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\ContactXam\ContactXam.UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\XamContact\ContactXam.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\ContactXam\ContactXam.UWP\bin\x86\Debug\ContactXam.UWP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\XamContact\ContactXam.UWP\bin\x86\Debug\ContactXam.UWP.xr.xml">
       <PackagePath>ContactXam.UWP.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\ContactXam\ContactXam.UWP\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\XamContact\ContactXam.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\ContactXam\ContactXam.UWP\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\XamContact\ContactXam.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\\redist\Debug\x86\ucrtbased.dll">
@@ -235,10 +256,10 @@
     <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\microsoft.ui.xaml\2.4.3\buildTransitive\..\lib\uap10.0\Microsoft.UI.Xaml.winmd">
       <PackagePath>WinMetadata\Microsoft.UI.Xaml.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\ContactXam\ContactXam.UWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\XamContact\ContactXam.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\egome\source\repos\ContactXam\ContactXam.UWP\bin\x86\Debug\Core\ContactXam.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\XamContact\ContactXam.UWP\bin\x86\Debug\Core\ContactXam.UWP.exe">
       <PackagePath>ContactXam.UWP.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
