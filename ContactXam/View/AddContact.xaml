@@ -18,13 +18,13 @@
             <StackLayout Grid.Row="1"
                          Margin="20">
                 <Entry Placeholder="Name"
-                       Text="{x:Binding Contact.Name}" />
+                       Text="{x:Binding person.Name}" />
                 <Entry Placeholder="Phone Number"
-                       Text="{x:Binding Contact.PhoneNumber}"
+                       Text="{x:Binding person.PhoneNumber}"
                        Keyboard="Numeric"
                        MaxLength="10"/>
                 <Entry Placeholder="Address"
-                       Text="{x:Binding Contact.Address}" />
+                       Text="{x:Binding person.Address}" />
                 <Button Grid.Row="2"
                         Margin="40"
                         Command="{x:Binding SaveCommand}"
