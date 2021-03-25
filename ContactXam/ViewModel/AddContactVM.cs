@@ -8,16 +8,19 @@ using Xamarin.Forms;
 namespace ContactXam.ViewModel {
     public class AddContactVM : ViewModelBase {
         public ICommand SaveCommand { get; set; }
-        public Person Contact { get; set; }
+
+        public Person person { get; set; }
+
         public AddContactVM() {
 
-            Contact = new Person();
+            person = new Person();
 
             SaveCommand = new Command(async () => {
 
-                await DBHelper.AddContact(Contact.Name, Contact.PhoneNumber, Contact.Address);
+                await DBHelper.AddContact(person.Name, person.PhoneNumber, person.Address);
 
                 var main = Application.Current.MainPage;
+
                 await main.Navigation.PopAsync();
 
             });

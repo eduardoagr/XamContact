@@ -7,6 +7,7 @@ using System.IO;
 using System.Threading.Tasks;
 
 using Xamarin.Essentials;
+using Xamarin.Forms;
 
 namespace ContactXam.Service {
     public class DBHelper {
@@ -48,7 +49,7 @@ namespace ContactXam.Service {
 
             await init();
 
-            await db.UpdateAsync(id);
+            await db.DeleteAsync<Person>(id);
         }
         public static async Task<List<Person>> getContacts() {
 

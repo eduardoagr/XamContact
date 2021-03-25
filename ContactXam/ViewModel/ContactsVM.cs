@@ -19,24 +19,14 @@ namespace ContactXam.ViewModel {
 
         public ICommand AddContact { get; set; }
 
-
-        private ObservableCollection<Person> _Contacts = new ObservableCollection<Person>();
-        public ObservableCollection<Person> Contacts {
-            get { return _Contacts; }
-            set {
-                if (_Contacts != value) {
-                    _Contacts = value;
-                    RaisePropertyChanged(nameof(Contacts));
-                }
-            }
-        }
+        public ObservableCollection<Person> Contacts { get; set; } = new ObservableCollection<Person>();
         private Person _SelectedItem;
         public Person SelectedItem {
             get { return _SelectedItem; }
             set {
                 if (_SelectedItem != value) {
                     _SelectedItem = value;
-                    RaisePropertyChanged(nameof(SelectedItem));
+                    RaisePropertyChanged();
                 }
             }
         }
@@ -46,6 +36,7 @@ namespace ContactXam.ViewModel {
         public ContactsVM() {
             Populatedatabase();
 
+          
             AddContact = new Command(async () => {
                 var mainPage = Application.Current.MainPage;
                 await mainPage.Navigation.PushAsync(new AddContact());
