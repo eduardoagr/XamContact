@@ -7,7 +7,6 @@ using System.IO;
 using System.Threading.Tasks;
 
 using Xamarin.Essentials;
-using Xamarin.Forms;
 
 namespace ContactXam.Service {
     public class DBHelper {

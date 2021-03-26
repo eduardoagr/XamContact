@@ -29,3 +29,4 @@ C:\Users\egome\Documents\GitRepos\XamContact\ContactXam\obj\Debug\netstandard2.0
 C:\Users\egome\Documents\GitRepos\XamContact\ContactXam\obj\Debug\netstandard2.0\ref\ContactXam.dll
 C:\Users\egome\Documents\GitRepos\XamContact\ContactXam\obj\Debug\netstandard2.0\ContactXam.pdb
 C:\Users\egome\Documents\GitRepos\XamContact\ContactXam\obj\Debug\netstandard2.0\ContactXam.csprojAssemblyReference.cache
+C:\Users\egome\Documents\GitRepos\XamContact\ContactXam\obj\Debug\netstandard2.0\View\UpdatePage.xaml.g.cs

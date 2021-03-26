@@ -36,10 +36,23 @@ namespace ContactXam.ViewModel {
         public ContactsVM() {
             Populatedatabase();
 
-          
             AddContact = new Command(async () => {
                 var mainPage = Application.Current.MainPage;
                 await mainPage.Navigation.PushAsync(new AddContact());
+            });
+
+            MessagingCenter.Subscribe<AddContactVM, Person>(this, "AddItem", (obj, item) => {
+                Person newItem = item;
+
+                Contacts.Add(newItem);
+
+            });
+
+            MessagingCenter.Subscribe<UpdatePageVM, Person>(this, "UpdatedItem", (obj, item) => {
+                Person newItem = item;
+
+                Populatedatabase();
+
             });
 
             SelectionItemCommand = new Command(async () => {
@@ -66,7 +79,7 @@ namespace ContactXam.ViewModel {
                                 phoneDialer.MakePhoneCall(SelectedItem.PhoneNumber);
                             break;
                         case "Update":
-                            //await mainPage.Navigation.PushAsync(new UdateContactPage());
+                            await mainPage.Navigation.PushAsync(new UpdatePage(SelectedItem));
                             break;
                         case "Delete":
                             Contacts.Remove(SelectedItem);

@@ -1,20 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="ContactXam.View.AddContact"
+             x:Class="ContactXam.View.UpdatePage"
              xmlns:vm="clr-namespace:ContactXam.ViewModel"
-             x:DataType="vm:AddContactVM"
-             Visual="Material">
-
-    <ContentPage.BindingContext>
-        <vm:AddContactVM />
-    </ContentPage.BindingContext>
+             x:DataType="vm:UpdatePageVM">
 
     <ContentPage.Content>
         <Grid RowDefinitions="250, Auto"
               RowSpacing="20">
             <StackLayout BackgroundColor="AliceBlue">
-                <Image Source="User" HeightRequest="200" WidthRequest="200" VerticalOptions="CenterAndExpand" />
+                <Image Source="User"
+                       HeightRequest="200"
+                       WidthRequest="200"
+                       VerticalOptions="CenterAndExpand" />
             </StackLayout>
             <StackLayout Grid.Row="1"
                          Margin="20">
@@ -23,13 +21,13 @@
                 <Entry Placeholder="Phone Number"
                        Text="{x:Binding person.PhoneNumber}"
                        Keyboard="Numeric"
-                       MaxLength="10"/>
+                       MaxLength="10" />
                 <Entry Placeholder="Address"
                        Text="{x:Binding person.Address}" />
                 <Button Grid.Row="2"
                         Margin="40"
-                        Command="{x:Binding SaveCommand}"
-                        Text="Save"/>
+                        Command="{x:Binding UpdateCommand}"
+                        Text="Update" />
             </StackLayout>
         </Grid>
     </ContentPage.Content>

@@ -1,28 +1,30 @@
 ﻿using ContactXam.Model;
 using ContactXam.Service;
+
 using System.Windows.Input;
+
 using Xamarin.Forms;
 
 namespace ContactXam.ViewModel {
-    public class AddContactVM : ViewModelBase {
-        public ICommand SaveCommand { get; set; }
+    public class UpdatePageVM : ViewModelBase {
 
         public Person person { get; set; }
 
-        public AddContactVM() {
+        public ICommand UpdateCommand { get; set; }
+
+        public UpdatePageVM() {
 
             person = new Person();
 
-            SaveCommand = new Command(async () => {
+            UpdateCommand = new Command(async () => {
 
-                await DBHelper.AddContact(person.Name, person.PhoneNumber, person.Address);
+                await DBHelper.updateContact(person.Id);
 
-                MessagingCenter.Send(this, "AddItem", person);
+                MessagingCenter.Send(this, "UpdatedItem", person);
 
                 var main = Application.Current.MainPage;
 
                 await main.Navigation.PopAsync();
-
             });
         }
     }
