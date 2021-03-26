@@ -45,14 +45,6 @@ namespace ContactXam.ViewModel {
                 Person newItem = item;
 
                 Contacts.Add(newItem);
-
-            });
-
-            MessagingCenter.Subscribe<UpdatePageVM, Person>(this, "UpdatedItem", (obj, item) => {
-                Person newItem = item;
-
-                Populatedatabase();
-
             });
 
             SelectionItemCommand = new Command(async () => {

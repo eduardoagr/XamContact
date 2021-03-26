@@ -12,6 +12,8 @@ namespace ContactXam.ViewModel {
 
         public ICommand UpdateCommand { get; set; }
 
+        public ContactsVM contactsVM { get; set; }
+
         public UpdatePageVM() {
 
             person = new Person();
@@ -20,7 +22,7 @@ namespace ContactXam.ViewModel {
 
                 await DBHelper.updateContact(person.Id);
 
-                MessagingCenter.Send(this, "UpdatedItem", person);
+                contactsVM = new ContactsVM();
 
                 var main = Application.Current.MainPage;
 

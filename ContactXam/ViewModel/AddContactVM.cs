@@ -1,6 +1,8 @@
 ﻿using ContactXam.Model;
 using ContactXam.Service;
+
 using System.Windows.Input;
+
 using Xamarin.Forms;
 
 namespace ContactXam.ViewModel {
