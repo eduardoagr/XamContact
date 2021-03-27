@@ -44,11 +44,11 @@ namespace ContactXam.Service {
             await db.DeleteAsync<Person>(id);
         }
 
-        public static async Task updateContact(int id) {
+        public static async Task updateContact(Person person) {
 
             await init();
 
-            await db.DeleteAsync<Person>(id);
+            await db.UpdateAsync(person);
         }
         public static async Task<List<Person>> getContacts() {
 

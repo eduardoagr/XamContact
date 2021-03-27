@@ -12,17 +12,11 @@ namespace ContactXam.ViewModel {
 
         public ICommand UpdateCommand { get; set; }
 
-        public ContactsVM contactsVM { get; set; }
-
         public UpdatePageVM() {
-
-            person = new Person();
 
             UpdateCommand = new Command(async () => {
 
-                await DBHelper.updateContact(person.Id);
-
-                contactsVM = new ContactsVM();
+                await DBHelper.updateContact(person);
 
                 var main = Application.Current.MainPage;
 

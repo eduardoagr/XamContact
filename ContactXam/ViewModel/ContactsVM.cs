@@ -7,7 +7,6 @@ using ContactXam.View;
 using Plugin.Messaging;
 
 using System.Collections.ObjectModel;
-using System.Diagnostics;
 using System.Windows.Input;
 
 using Xamarin.Forms;
@@ -53,7 +52,6 @@ namespace ContactXam.ViewModel {
                     var mainPage = Application.Current.MainPage;
                     string action = await mainPage.DisplayActionSheet(
                         "What do you want to do?:", "Cancel", "Delete", "Call", "Update", string.Empty);
-                    Debug.WriteLine("Action: " + action);
 
                     switch (action) {
                         case "Call":

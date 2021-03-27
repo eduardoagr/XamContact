@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ContactXam.View.UpdatePage"
              xmlns:vm="clr-namespace:ContactXam.ViewModel"
-             x:DataType="vm:UpdatePageVM">
+             x:DataType="vm:UpdatePageVM"
+             Visual="Material">
 
     <ContentPage.Content>
         <Grid RowDefinitions="250, Auto"
