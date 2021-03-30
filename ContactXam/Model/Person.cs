@@ -1,8 +1,13 @@
 ﻿using ContactXam.ViewModel;
 
+using Microsoft.WindowsAzure.MobileServices;
+
 using SQLite;
 
+using System.Data;
+
 namespace ContactXam.Model {
+    [DataTable("People")]
     public class Person : ViewModelBase {
 
         [PrimaryKey, AutoIncrement]

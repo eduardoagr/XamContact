@@ -1,14 +1,4 @@
-﻿using ContactXam.Model;
-
-using SQLite;
-
-using System.Collections.Generic;
-using System.IO;
-using System.Threading.Tasks;
-
-using Xamarin.Essentials;
-
-namespace ContactXam.Service {
+﻿namespace ContactXam.Service {
     //    public class SQLiteHelper {
 
     //        static SQLiteAsyncConnection db;

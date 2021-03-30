@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\egome\Documents\GitRepos\XamContact\ContactXam.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-03-21T21:10:39.022</Modified>
+      <Modified>2021-03-30T18:35:55.879</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\XamContact\ContactXam.UWP\bin\x86\Debug\ContactXam.UWP.exe">
       <PackagePath>entrypoint\ContactXam.UWP.exe</PackagePath>
-      <Modified>2021-03-21T21:10:35.969</Modified>
+      <Modified>2021-03-30T18:35:53.097</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\microsoft.azure.mobile.client\4.2.0\lib\uap10.0\Microsoft.Azure.Mobile.Client.dll">
       <PackagePath>Microsoft.Azure.Mobile.Client.dll</PackagePath>
@@ -148,7 +148,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\XamContact\ContactXam\bin\Debug\netstandard2.0\ContactXam.dll">
       <PackagePath>ContactXam.dll</PackagePath>
-      <Modified>2021-03-21T21:10:19.746</Modified>
+      <Modified>2021-03-30T18:34:20.834</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\egome\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
@@ -315,11 +315,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\XamContact\ContactXam.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-03-21T21:10:35.726</Modified>
+      <Modified>2021-03-30T18:35:52.989</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\XamContact\ContactXam.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2021-03-21T21:10:35.726</Modified>
+      <Modified>2021-03-30T18:35:52.989</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -339,7 +339,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\egome\Documents\GitRepos\XamContact\ContactXam.UWP\bin\x86\Debug\Core\ContactXam.UWP.exe">
       <PackagePath>ContactXam.UWP.exe</PackagePath>
-      <Modified>2021-03-21T21:10:38.979</Modified>
+      <Modified>2021-03-30T18:35:55.838</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

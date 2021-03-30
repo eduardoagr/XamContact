@@ -88,12 +88,7 @@ namespace ContactXam.ViewModel {
 
 
         public async void Populatedatabase() {
-            var peopleList = await AzureHelper.Helper.getContacts();
-            Contacts.Clear();
-            foreach (var item in peopleList) {
-                Contacts.Add(item);
-            }
-
+            Contacts = await AzureHelper.Helper.getContacts();
         }
     }
 }
