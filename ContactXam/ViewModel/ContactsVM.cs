@@ -73,7 +73,7 @@ namespace ContactXam.ViewModel {
                             break;
                         case "Delete":
                             Contacts.Remove(SelectedItem);
-                            await DBHelper.removeContact(SelectedItem.Id);
+                            await AzureHelper.Helper.removeContact(SelectedItem);
                             break;
                         default:
                             break;
@@ -88,7 +88,7 @@ namespace ContactXam.ViewModel {
 
 
         public async void Populatedatabase() {
-            var peopleList = await DBHelper.getContacts();
+            var peopleList = await AzureHelper.Helper.getContacts();
             Contacts.Clear();
             foreach (var item in peopleList) {
                 Contacts.Add(item);

@@ -17,7 +17,7 @@ namespace ContactXam.ViewModel {
 
             SaveCommand = new Command(async () => {
 
-                await DBHelper.AddContact(person.Name, person.PhoneNumber, person.Address);
+                await AzureHelper.Helper.AddContact(person);
 
                 MessagingCenter.Send(this, "AddItem", person);
 

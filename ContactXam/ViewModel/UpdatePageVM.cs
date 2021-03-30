@@ -16,7 +16,7 @@ namespace ContactXam.ViewModel {
 
             UpdateCommand = new Command(async () => {
 
-                await DBHelper.updateContact(person);
+                await AzureHelper.Helper.updateContact(person);
 
                 var main = Application.Current.MainPage;
 
