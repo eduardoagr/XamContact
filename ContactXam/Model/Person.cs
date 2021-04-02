@@ -2,48 +2,25 @@
 
 using Microsoft.WindowsAzure.MobileServices;
 
+using Newtonsoft.Json;
+
 using SQLite;
 
-using System.Data;
-
 namespace ContactXam.Model {
-    [DataTable("People")]
+
+    [DataTable("Contact")]
     public class Person : ViewModelBase {
 
-        [PrimaryKey, AutoIncrement]
+        [JsonProperty("id")]
         public int Id { get; set; }
 
-        private string _Name;
-        public string Name {
-            get { return _Name; }
-            set {
-                if (_Name != value) {
-                    _Name = value;
-                    RaisePropertyChanged();
-                }
-            }
-        }
+        [JsonProperty("name")]
+        public string Name { get; set; }
+        
+        [JsonProperty("phone")]
+        public string PhoneNumber { get; set; }
 
-        private string _PhoneNumber;
-        public string PhoneNumber {
-            get { return _PhoneNumber; }
-            set {
-                if (_PhoneNumber != value) {
-                    _PhoneNumber = value;
-                    RaisePropertyChanged();
-                }
-            }
-        }
-
-        private string _Address;
-        public string Address {
-            get { return _Address; }
-            set {
-                if (_Address != value) {
-                    _Address = value;
-                    RaisePropertyChanged();
-                }
-            }
-        }
+        [JsonProperty("address")]
+        public string Address { get; set; }
     }
 }
